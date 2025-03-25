@@ -1,0 +1,267 @@
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.541);
+}
+
+
+.membership{
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    color: #000000;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border-radius: 23px;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+/* Ho usato un tool per creare il bottone */
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+
+
+.interazione button{
+    vertical-align: middle;
+}
+
+hr{
+    border: 1px black solid;
+}
+
+.ricerca {
+    
+    padding: 5px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.navigazione{
+    padding-top: 30px;
+    position: relative;
+    left: -22%;
+    margin-left: 19%;
+   }
+
+nav .correlati {
+
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.correlati:hover {
+    border-bottom: 1px solid black;
+}
+
+article img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.infoDate{
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-right: 16%;
+}
+
+.iconFavorite{
+color: black;
+    display: inline-block;
+}
+
+.recensore {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-left: 0;
+    }
+
+.sidearticoli img {
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+.fotoarticolo {
+    float: right;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+   
+}
+
+#articoli {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+
+}
+
+#articoli article {
+    margin-bottom: 25px;
+}
+
+.sidebar {
+    background-color: white;
+    padding: 0 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-right: 120px;
+}
+
+.mediumtwitter{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+        }
+        .mediumtwitter a{
+            text-decoration: none;
+            color: black;
+        }
+
+.twitter{
+    vertical-align: middle;
+    display: inline-block;
+      color: #000000;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border-radius: 23px;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+.twitter img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.buttopics{ display: inline-block;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #dbdbdb;
+    border-radius: 30px;
+    padding: 0px 0px;
+    border: 0px solid #006FE6;
+    cursor: pointer;}
+
+.buttopics:hover {
+    background-color: #89B0CC;
+    border-color: #D8D9D2;
+   }
+
+   .follow{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 5px;
+       }
+       .follow a{
+        text-decoration: none;
+        color: black;
+       }
+
+   .follow img{
+
+    margin-right: 15px;
+   }
+
+   .following
+   {
+    width: 50%;
+
+   }
+   .following p{
+    margin: 2px 0 0;
+    font-size: 12px;
+    color: rgba(179, 179, 179, 0.801);
+   }
+
+   .buttonFollow{
+    position: absolute;left: 87%;
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border-radius: 23px;
+    padding: 8px 25px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    margin-left: 25px;
+   }
+
+   .vediAltro{
+    color: green;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 20%;
+   }
+
+   .footer{
+    display: inline-block;
+    text-align: center;
+    color: #ADADAD;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    padding: 8px 12px;
+    border: 0px solid #006FE6;
+    cursor: pointer;
+   }
